@@ -1,6 +1,7 @@
 # Pyspark in Python 3
 
 _Status_ : Under Development
+
 _Author_ : Pierre-Yves Lablanche
 
 In this repository I compile information and resources collected while learning how to use pyspark.
@@ -9,7 +10,7 @@ Note that I'm open to any comments.
 
 ## What's New
 
-beta : first push to the repo ()
+beta : first push to the repo
 
 ## Installation
 
@@ -19,6 +20,7 @@ That is the first tedious part with pyspark : getting everything installed and w
 I've tried to keep installation and modification to the minimum and cannot promise it would work on every machine.
 
 __Python packages__
+
 That's the easy part (of the annoying part), just type :
 ```sh
 pip3 install requirements.txt
@@ -49,7 +51,8 @@ export PYSPARK_PYTHON=python3
 And that's it for spark.
 Note that you also need to have java installed on your computer.
 
-__Notes on Java__ :
+__Notes on Java__
+
 To know which version is installed on your computer run the following command :
 ```sh
 $ java -version
