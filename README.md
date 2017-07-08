@@ -1,6 +1,6 @@
 # Pyspark in Python 3
 
-_Status_ : Under Development \s
+_Status_ : Under Development  
 _Author_ : Pierre-Yves Lablanche
 
 In this repository I compile information and resources collected while learning how to use pyspark.
