@@ -22,7 +22,7 @@ __Python packages__
 
 That's the easy part (of the annoying part), just type :
 ```sh
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 ```
 
 __Spark 2.1.1__
