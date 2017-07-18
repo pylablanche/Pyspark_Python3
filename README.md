@@ -33,7 +33,7 @@ Once the download is finished go to the folder containing the file and enter the
 $ tar xzvf spark-2.1.1-bin-hadoop2.7.tgz
 $ mv spark-2.1.1-bin-hadoop2.7/ /opt/spark-2.1.1
 ```
-Then you can create a symlink to the binary file :
+Then you can create a symlink :
 ```sh
 $ ln -s /opt/spark-2.1.1/ /opt/spark
 ```
