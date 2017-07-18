@@ -25,17 +25,21 @@ That's the easy part (of the annoying part), just type :
 pip3 install -r requirements.txt
 ```
 
-__Spark 2.1.1__
+__Spark 2.2.0__
 
 First you need to go to the [Spark download page](http://spark.apache.org/downloads.html), choose the _Spark release_, _package type_ and _download type_ (you probably won't need to modify anything).
 Once the download is finished go to the folder containing the file and enter the following lines :
 ```sh
-$ tar xzvf spark-2.1.1-bin-hadoop2.7.tgz
-$ mv spark-2.1.1-bin-hadoop2.7/ /opt/spark-2.1.1
+$ tar xzvf spark-2.2.0-bin-hadoop2.7.tgz
+$ mv spark-2.2.0-bin-hadoop2.7/ /opt/spark-2.2.0
 ```
 Then you can create a symlink :
 ```sh
-$ ln -s /opt/spark-2.1.1/ /opt/spark
+$ ln -s /opt/spark-2.2.0/ /opt/spark
+```
+If you want _update_ an existing symlink use the following command :
+```sh
+$ ln -sfn /opt/spark-2.2.0/ /opt/spark
 ```
 In order to use spark/pyspark with python3 you also need to set some environment variable in your `.bashrc` or `.bash_profile`.
 Just add the following lines :
