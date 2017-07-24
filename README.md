@@ -73,10 +73,10 @@ Welcome to
       ____              __
      / __/__  ___ _____/ /__
     _\ \/ _ \/ _ `/ __/  '_/
-   /__ / .__/\_,_/_/ /_/\_\   version 2.1.1
+   /__ / .__/\_,_/_/ /_/\_\   version 2.2.0
       /_/
 
-Using Python version 3.5.2 (v3.5.2:4def2a2901a5, Jun 26 2016 10:47:25)
+Using Python version 3.5.2
 SparkSession available as 'spark'.
 >>>
 ```
@@ -95,6 +95,11 @@ export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
 This way you will automatically start jupyter notebook with pyspark when typing :
 ```sh
 $ pyspark
+```
+ 
+Ultimately I've created a small shell executable named `run_notebook_spark.sh` you can run to start the notebook in a spark shell :
+```sh
+$ ./run_notebook_spark.sh
 ```
 
 (I personnaly prefer the first option as I don't want to automatically start a notebook when running pyspark)
